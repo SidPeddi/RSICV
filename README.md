@@ -2,7 +2,7 @@
 
 This project implements a modular 32-bit pipelined RISC-V processor using Verilog. The processor supports essential instruction types including R-type, I-type, memory access (`LW`, `SW`), and control flow (`BEQ`, `JAL`, `JALR`) instructions. The design features classic 5-stage pipelining and includes data forwarding and hazard handling mechanisms for correct and efficient execution.
 
-## 🛠 Features
+## Features
 
 - **5-stage Pipeline**:
   - Instruction Fetch (IF)
@@ -22,15 +22,7 @@ This project implements a modular 32-bit pipelined RISC-V processor using Verilo
 - **Modular Design**:
   - Separate Verilog modules for ALU, Register File, Immediate Generator, Control Unit, and Pipeline Registers
 
-## 🧪 Testing
-
-- Developed comprehensive Verilog testbenches simulating real instruction traces
-- Verified:
-  - Correct instruction execution and data path behavior
-  - Hazard-free pipeline operation
-  - Accurate final register and memory states
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -49,10 +41,3 @@ To view waveforms:
 ```bash
 gtkwave dump.vcd
 ```
-
-## 🧠 Skills Demonstrated
-
-- Verilog HDL and modular hardware design
-- Pipeline implementation and debugging
-- Simulation, testing, and waveform analysis
-- Computer architecture (RISC-V ISA)
